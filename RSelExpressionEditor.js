@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name            WME Road Selector Expression Editor
 // @namespace       https://greasyfork.org/users/11629-TheLastTaterTot
-// @version         0.3.4.6
+// @version         2019.02.07.01
 // @description     Allows easier editing of the selection criteria by converting the expressions into editable text
 // @author          TheLastTaterTot
-// @include         https://editor-beta.waze.com/*editor/*
-// @include         https://www.waze.com/*editor/*
-// @exclude         https://www.waze.com/*user/editor/*
+// @include         https://www.waze.com/editor*
+// @include         https://www.waze.com/*/editor*
+// @include         https://beta.waze.com/*
+// @exclude         https://www.waze.com/user/editor*
 // @grant           none
 // @run-at          document-end
 // ==/UserScript==
